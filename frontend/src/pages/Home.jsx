@@ -24,7 +24,7 @@ function Home() {
 
     const fetchProducts = async () => {
         try {
-            const url = "http://localhost:8080/product";
+            const url = "https://mern-login-ten-chi.vercel.app/product";
             const headers = {
                 headers: {
                     'Authorization': localStorage.getItem('jwtToken')
